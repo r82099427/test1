@@ -4,21 +4,52 @@
   <meta charset="UTF-8">
   <title>CodePen - Move clicked item to the center of the Owl Carousel</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'><link rel="stylesheet" href="./style.css">
-
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
 <!-- partial:index.partial.html -->
 <div class="container">
   <div class="owl-carousel">
-    <div><img src="https://i.imgur.com/amCQA5C.png" alt=""></div>
-    <div><img src="https://i.imgur.com/VtPOcGr.png" alt=""></div>
-    <div><img src="https://i.imgur.com/I796Cla.png" alt=""></div>
-    <div><img src="https://i.imgur.com/qLyMBPp.png" alt=""></div>
-    <div><img src="https://i.imgur.com/lXBRjVm.png" alt=""></div>
-    <div><img src="https://i.imgur.com/AoMeHBw.png" alt=""></div>
+    <div class="item" data-hash="n01"><img  class="image_effect" src="https://i.imgur.com/amCQA5C.png" alt="">
+      <img class="vbar_effect" src="https://i.imgur.com/afIrcII.png" alt="">
+      <img class="bar_effect" src="https://i.imgur.com/74e8B73.png" alt=""></div>
+
+    <div class="item" data-hash="n02" data-merge="1"><img class="image_effect" src="https://i.imgur.com/VtPOcGr.png" alt="">
+      <img class="vbar_effect" src="https://i.imgur.com/afIrcII.png" alt="">
+      <img class="bar_effect" src="https://i.imgur.com/74e8B73.png" alt=""></div>
+
+    <div class="item" data-hash="n03"><img class="image_effect" src="https://i.imgur.com/I796Cla.png" alt="">
+      <img class="vbar_effect" src="https://i.imgur.com/afIrcII.png" alt="">
+      <img class="bar_effect" src="https://i.imgur.com/74e8B73.png" alt=""></div>
+
+    <div class="item" data-hash="n04"><img class="image_effect" src="https://i.imgur.com/qLyMBPp.png" alt="">
+      <img class="vbar_effect" src="https://i.imgur.com/afIrcII.png" alt="">
+      <img class="bar_effect" src="https://i.imgur.com/74e8B73.png" alt=""></div>
+
+    <div class="item" data-hash="n05"><img class="image_effect" src="https://i.imgur.com/lXBRjVm.png" alt="">
+      <img class="vbar_effect" src="https://i.imgur.com/afIrcII.png" alt="">
+      <img class="bar_effect" src="https://i.imgur.com/74e8B73.png" alt=""></div>
+
+    <div class="item" data-hash="n06"><img class="image_effect" src="https://i.imgur.com/AoMeHBw.png" alt="">
+      <img class="vbar_effect" src="https://i.imgur.com/afIrcII.png" alt="">
+      <img class="bar_effect" src="https://i.imgur.com/74e8B73.png" alt=""></div>
     <!--<div><img src="https://via.placeholder.com/400x300/369/fff/?text=6" alt=""></div>
     <div><img src="https://via.placeholder.com/400x300/936/fff/?text=7" alt=""></div>-->
   </div>
+  <!-- https://i.imgur.com/rbtW73D.png
+  <div class="owl-carousel">
+    <a data-hash="n01" href="#n01">1</a> 
+    <a data-hash="n02" href="#n02">2</a>
+    <a data-hash="n03" href="#n03">3</a>
+    <a data-hash="n04" href="#n04">4</a>
+    <a data-hash="n05" href="#n05">5</a>
+    <a data-hash="n06" href="#n06">6</a>
+    
+  </div>
+-->
 </div>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
